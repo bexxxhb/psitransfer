@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    psitransfer:
+        build: .
+        ports:
+            - '3000:3000'
+        environment:
+            - PSITRANSFER_ADMIN_PASS=P_M2004
+        volumes:
+            - '/share/extern/psi/data:/data'
