@@ -7,4 +7,4 @@ services:
         environment:
             - PSITRANSFER_ADMIN_PASS=P_M2004
         volumes:
-            - '/share/extern/psi/data:/data'
+            - '/share/extern/usb/psitransfer/data:/data '
